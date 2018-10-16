@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      
+	   <title>Prueba WP</title>
+      <div class="container">
+        <img src="assets/img/marca/logo.png" class="logo">
+         <h1>IL RISTORANTE </h1>
+          <div id="reservation" class="section">
+
+			<!-- Backgound Image -->
+           
+	          <script type="text/javascript">
+            $(document).ready(function(){
+            $("#flip-1").click(function(){
+            $("#panel-1").slideToggle("slow");
+            });
+            });
+            </script> 
+            <div id="flip-1" class="flip-1">Haz click aquí para RESERVAS</div> 
+	           <div id="panel-1"> 
+	           	<div class="container">
+				<!-- Grilla --> 	
+ 		          	<div class="row">
+					<!-- Formulario de Reserva -->
+				        	<div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1">
+					        	<form class="reserve-form row">
+					        		<div class="section-header text-center">
+						        		<h4 class="sub-title">Reservación</h4>
+								
+						    	</div>
+            <form>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name">Nombre:</label>
+									<input class="input" type="text" placeholder="Name" id="name">
+								</div>
+								<div class="form-group">
+									<label for="phone">Teléfono:</label>
+									<input class="input" type="tel" placeholder="Phone" id="phone">
+								</div>
+								<div class="form-group">
+									<label for="date">Fecha:</label>
+									<input class="input" type="text" placeholder="MM/DD/YYYY" id="date">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="email">Email:</label>
+									<input class="input" type="email" placeholder="Email" id="email">
+								</div>
+								<div class="form-group">
+									<label for="number">Número de comensales:</label>
+									<select class="input" id="number">
+										<option>1 Person</option>
+										<option>2 People</option>
+										<option>3 People</option>
+										<option>4 People</option>
+										<option>5 People</option>
+										<option>6 People</option>
+									</select>
+								</div>
+								<div class="form-group">
+								  <label for="time">Hora:</label>
+								  <input class="input" type="text" placeholder="HH:MM" id="time">
+								</div>
+							</div>
+
+							<div class="col-md-12 text-center">
+								<button class="main-button">Reserva Ahora</button>
+							</div>
+
+						</form>
+				</div>
+			</div>		
+    </div>	
+   </div>
+  </div>
+ </div>
+ 
+</head>
+<body>
+
+ <div class="jumbotron">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/sitio/ddimodena.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/sitio/cena.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/img/sitio/mesa.jpg" alt="Third slide">
+    </div>
+  </div>
+ </div>
+</div>
+ <div>
+  <script type="text/javascript">
+      $(document).ready(function(){
+      $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+      });
+      });
+  </script>  
+     <div id="flip" class="flip">Haz click aquí para ver NUESTRA CARTA</div>
+      <div id="panel"> 
+	<!-- Galería de platos y/o Menú -->
+       <div id="galeria"> 
+        <div id="imagen1"> 
+        <img src="assets/img/platos/polenta_frita.jpg"> 
+         <p>Polenta F.Salsa Arrabiata $5.600</p>
+         <p>Palitos de polenta frita con salsa de</p>
+       </div>   
+   <div id="imagen2"> 
+      <img src="assets/img/platos/peperonata.jpg"> 
+      <p>Peperonata $4.600</p>
+      <p>Láminas de pan de campo al ajo</p>
+    </div>   
+   <div id="imagen3"> 
+      <img src="assets/img/platos/provoleta_oregano.jpg">
+      <p>Provoleta Al Oreganato $5.200</p> 
+      <p>Fundido con tomates al oregano</p>
+      
+   </div>   
+   <div id="imagen4"> 
+      <img src="assets/img/platos/melazane_e_prosciuto.jpg">
+      <p>Melazane e Prosciuto $7.900</p> 
+      <p>Timbal de láminas de berenjena</p>
+      
+   </div>   
+   <div id="imagen5"> 
+      <img src="assets/img/platos/insalatta_danubio.jpg"> 
+      <p>Insalatta Danubio $6.200</p>
+      <p>Selección de berenjenas, alcac</p>
+       
+   </div>   
+   <div id="imagen6"> 
+      <img src="assets/img/platos/insalatta_pilarre.jpg"> 
+      <p>Insalatta Pilarre $6.500</p>
+      <p>Espinacas, panceta crujiente, </p>
+       
+   </div>  
+   <div id="imagen7"> 
+      <img src="assets/img/platos/insalatta_andree.jpg"> 
+      <p>Insalatta Andree $7.000</p>
+      <p>Selección de lechugas, rúcula </p>
+       
+   </div>
+   <div id="imagen8"> 
+      <img src="assets/img/platos/zuppa_di_chef.jpg">
+      <p>Zuppa Di Chef $5.300</p> 
+      <p>Sopa del día seleccionada por el chef</p>
+       
+   </div>
+   <div id="imagen9"> 
+      <img src="assets/img/platos/ministrone_genovese.jpg">
+      <p>Ministrone Genovese $5.300</p>
+      <p>Sopa tradicional Italiana a base</p> 
+       
+   </div> 
+   <div id="imagen10"> 
+      <img src="assets/img/platos/marguerita.jpg">
+      <p>Margherita $7.200</p> 
+      <p>Mozzarella, pomodoro, albahaca</p>
+       
+   </div> 
+   
+   <div id="imagen11"> 
+      <img src="assets/img/platos/marinara.jpg"> 
+      <p>Marinara $5.900</p>
+      <p>Pomodoro, láminas de ajo,aceite</p>
+       
+   </div> 
+   <div id="imagen12"> 
+      <img src="assets/img/platos/caprissiosa.jpg"> 
+      <p>Caprissiosa $7.100</p>
+      <p>Mozzarella, pomodoro, champiñ</p>
+       
+   </div> 
+   <div id="imagen13"> 
+      <img src="assets/img/platos/cinque_formaggi.jpg"> 
+      <p>Cinque Formaggi $7.100</p>
+      <p>Mozzarella, queso azul, ricot</p>
+       
+   </div> 
+   <div id="imagen14"> 
+      <img src="assets/img/platos/pepperoni.jpg"> 
+      <p>Pepperoni $6.200</p>
+      <p>Mozzarella, pomodoro, peppero</p>
+       
+   </div> 
+   <div id="imagen15"> 
+      <img src="assets/img/platos/putannesca.jpg">
+      <p>Putannesca $6.500</p> 
+      <p>Mozarella, pomodoro, ajo, pepperoncino</p>
+       
+          </div> 
+   <div id="imagen16"> 
+      <img src="assets/img/platos/mediterranea.jpg"> 
+      <p>Mediterránea $5.300</p>
+      <p>Mozarella, pomodoro,queso de c</p>
+       
+   </div> 
+   <div id="imagen17"> 
+      <img src="assets/img/platos/mediterranea.jpg">
+      <p>Mediterranea $5.300</p> 
+      <p>Mozarella, pomodoro,queso de c</p>
+       
+   </div> 
+   <div id="imagen18"> 
+      <img src="assets/img/platos/torino.jpg"> 
+      <p>Torino $5.300</p>
+      <p>Mozarella, pomodoro, pepperoni</p>
+       
+   </div> 
+   <div id="imagen19"> 
+      <img src="assets/img/platos/vegetariana.jpg"> 
+      <p>Veggetarianna $7.000</p>
+      <p>Mozarella, pomodoro, esparragos</p>
+       
+   </div> 
+   <div id="imagen20"> 
+      <img src="assets/img/platos/griega.jpg">
+      <p>Griegga $5.300</p> 
+      <p>Mozarella, pomodoro,queso de c</p>
+       
+   </div> 
+   <div id="imagen21"> 
+      <img src="assets/img/platos/gelato.jpg"> 
+      <p>Gelato $2.500</p>
+      <p>3 Bolas de helado</p>
+       
+   </div>
+   <div id="imagen22"> 
+      <img src="assets/img/platos/gelato_di_ciocolatto.jpg">
+      <p>Gelato Di Ciocolatto $2.500</p> 
+      <p>3 Bolas de helado</p>
+       
+   </div>
+   <div id="imagen23"> 
+      <img src="assets/img/platos/panna_cotta.jpg"> 
+      <p>Panna Cotta $3.500</p>
+      <p>Postre de crema y manjar</p>
+       
+   </div> 
+   <div id="imagen24"> 
+      <img src="assets/img/platos/tiramisu.jpg">
+      <p>Tiramisu $3.500</p> 
+      <p>Tradicional tiramisú de es</p>
+       
+   </div> 
+   <div id="imagen25"> 
+      <img src="assets/img/platos/infusiones.jpg"> 
+      <p>Infusiones $1.100</p>
+       
+   </div> 
+   <div id="imagen26"> 
+      <img src="assets/img/platos/espresso.jpg"> 
+      <p>Caffe Espresso $1.200</p>
+       
+   </div>  
+   <div id="imagen27"> 
+      <img src="assets/img/platos/latte.jpg"> 
+      <p>Latte $2.100</p>
+       
+   </div> 
+   <div id="imagen28"> 
+      <img src="assets/img/platos/moccaccino.jpg"> 
+      <p>Moccaccino $2.000</p>
+       
+   </div>  
+</div>
+</div> 
+</div> 
+</body> 
+<footer>
+	<!-- Dirección y ubicación -->
+  <div class="direccion">
+    <ul>
+      <li-2>Av. Colón 161, Providencia </li>
+      <li-2>Teléfono: +56 2 2345 4653</li>
+      <li-2>Facebook: ilfontidimodena - twitter: @ilfontidimodena - instagram: ilfontidimodena</li>
+       
+    </ul>
+  </div>
+<div>
+	<!-- Google Maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.2409800959836!2d-70.56362048520921!3d-33.41696120317951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cefaab864c33%3A0xe0f0903e7a8e6fd4!2sAv.+Cristobal+Colon%2C+Las+Condes%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1536875812442" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</footer>
+</html>
